@@ -1,0 +1,37 @@
+﻿<UserControl x:Class="lab3projectTeste.AboutProfile"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:lab3projectTeste"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Image Source="/Imagens/Login_Image.png"
+        HorizontalAlignment="Left" Width="399" Height="450" Margin="400,0,0,0"  />
+
+        <Image Source="/Imagens/Login_Image.png"
+        HorizontalAlignment="Left" Width="400"  Height="450"   />
+
+        <TextBlock x:Name="Username_TextBlock" HorizontalAlignment="Left" 
+                   TextWrapping="Wrap" Text="->Nome" VerticalAlignment="Top" 
+                   Height="22" Width="180" 
+                   Background="LightGray" Canvas.Left="310" 
+                   Canvas.Top="204" Margin="510,135,0,0" />
+
+        <TextBlock x:Name="Email_TextBlock" HorizontalAlignment="Left" 
+                   TextWrapping="Wrap" Text="->Email"
+                  VerticalAlignment="Top" Height="22" Width="180"
+                   Background="LightGray" Canvas.Left="310" Canvas.Top="234" Margin="510,162,0,0"/>
+        
+        <Label x:Name="Sobre_Label" Content="Sobre Nós" HorizontalAlignment="Left" Margin="122,52,0,0" VerticalAlignment="Top" FontSize="30" FontWeight="Bold" FontStyle="Normal" Foreground="#FF333232"/>
+        <Label x:Name="Sobre_Label_Copy" Content="Profile" HorizontalAlignment="Left" Margin="549,64,0,0" VerticalAlignment="Top" FontSize="30" FontWeight="Bold" FontStyle="Normal" Foreground="#FF333232"/>
+        <TextBlock x:Name="SobreNosTextBlock" HorizontalAlignment="Left"
+                   Margin="79,123,0,0" TextWrapping="Wrap"
+                   VerticalAlignment="Top" 
+                   Height="243" Width="241" FontSize="13"><Run Text="   Este trabalho foi realizado a prol da discilplina de Engenharia de Desenvolvimento de Software."/><LineBreak/><Run Text="   "/><Run Text="O sofware"/><Run Text=" utilizado para"/><Run Text=" o desenvolvimento"/><Run Text=" "/><Run Text="d"/><Run Text="est"/><Run Text="a"/><Run Text=" aplicação foi o Visual Studio"/><Run Language="pt-pt" Text=" e"/><Run Text=" para edição de Imagens foi utilizado GIMP."/><LineBreak/><LineBreak/><Run Text="Desenvolv"/><Run Text="e"/><Run Text="dores:"/><LineBreak/><Run Text="&#x9;"/><Run Text="-"/><Run Text="Vitor Novo"/><LineBreak/><Run Text="&#x9;"/></TextBlock>
+
+
+
+    </Grid>
+</UserControl>

@@ -1,0 +1,61 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="App.ico" />
+    <None Remove="icon_listas.png" />
+    <None Remove="icon_quit.png" />
+    <None Remove="Imagens\icon_listas.png" />
+    <None Remove="Imagens\Login_Image.png" />
+    <None Remove="Login_Image.png" />
+    <None Remove="profile_icon_final.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+
+<PackageReference Include="Syncfusion.Shared.WPF" Version="20.1.0.55" />
+<PackageReference Include="Syncfusion.Tools.WPF" Version="20.1.0.55" />
+<PackageReference Include="Syncfusion.Data.WPF" Version="20.1.0.55" />
+<PackageReference Include="Syncfusion.SfGrid.WPF" Version="20.1.0.55" />
+<PackageReference Include="Syncfusion.SfChart.WPF" Version="20.1.0.55" />
+<PackageReference Include="Syncfusion.SfDiagram.WPF" Version="20.1.0.55" />
+<PackageReference Include="Syncfusion.Themes.FluentLight.Wpf" Version="20.1.0.55" />
+<PackageReference Include="Syncfusion.SfSkinManager.WPF" Version="20.1.0.55" />
+<PackageReference Include="syncfusion.ui.wpf.net" Version="20.1.0.47" />
+</ItemGroup>
+  
+  <ItemGroup>
+    <None Include="Project_Readme.html" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Resource Include="App.ico" />
+    <Resource Include="icon_listas.png" />
+    <Resource Include="icon_quit.png" />
+    <Resource Include="Imagens\icon_listas.png" />
+    <Resource Include="Imagens\Login_Image.png" />
+    <Resource Include="Login_Image.png" />
+    <Resource Include="profile_icon_final.jpg" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+</Project>
