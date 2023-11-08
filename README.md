@@ -1,2 +1,2 @@
-# lab3project2022
+# Lista de Compras aplicação
 Projeto de Aplicação de Lista de Compras para Laboratorio
